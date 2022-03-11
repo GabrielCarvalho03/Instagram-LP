@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.container-menu{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
+    
+}
+.btnmenu{
+    width: 451px;
+height: 40px;
+background: #7BDFF2;
+box-shadow: 0px 5px 3px rgba(123, 223, 242, 0.42);
+
+}
+.header{
+    background-image: url('../Assets/header.svg');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.boxheader{
+    width: 100%;
+    
+   
+  
+}
+.boxtext{
+    margin-left: 2% !important;
+}
+.btnheader{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+width: 403px;
+height: 76px;
+background: #007EA7;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.boxintro{
+    background-image: url(../Assets/backgroundintro.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.boxlogout{
+    height: 500px;
+    display: flex  ;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column;
+}
+.Container-proggesbar{
+    margin-top: 8%;
+    width: 40%;
+    height: 10px;
+
+   
+}
+.proggesbar{
+    height: 100%;
+
+    animation: progess 3s  forwards;
+}
+
+.boxclientcard{
+    Width :120%;
+Height:227px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.swipemobile{
+   
+    width: 110%;
+    margin-left: -15% !important;
+}
+.titleclass{
+    width: 80% ;
+    font-size: 20px !important;
+}
+.btnoption{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+    height: 56px;
+    background: #007EA7;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.logoFooter{
+    width: 20%;
+}
+.logocontact{
+    width: 30%;
+}
+.input1{
+    width: 150%;
+    height: 45px;
+    background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+outline: none;
+font-size: 22px;
+padding-left: 10px;
+}
+.input2{
+
+    width: 150%;
+    height: 90px;
+    background: #FFFFFF;
+border: 1px solid #C4C4C4;
+
+outline: none;
+font-size: 22px;
+padding-left: 10px;
+}
+
+.btncontactenviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 103% !important;
+    width: 129px;
+height: 38px;
+cursor: pointer;
+
+background: #007EA7;
+}
+.logocontactsmenu{
+    
+    width: 50%;
+}
+@keyframes progess{
+    from{
+        width: 0;
+    }
+
+   
+      to {
+       
+        width: 100%;
+        background-color: #7BDFF2;
+      }
+    }
+
+
+
+.imglogoout{
+animation: imglooutnsuave 2s forwards;
+animation-delay: 1000ms;
+}
+
+@keyframes imglooutnsuave{
+    
+    from{
+        opacity: 1;
+    }
+    
+    to {
+     
+        opacity: 0.5;
+        transform: translate(-90px);
+      }
+    }
+
+
+
+    .imglogoon{
+      animation: imgsuave 1s forwards;
+     
+        
+    }
+
+    @keyframes imgsuave{
+        from{
+            opacity: 0;
+        }
+        
+        
+        to {
+            
+            opacity: 1;
+           
+          }
+        }
+
+       .imgok{
+           width: 40px;
+           height: 40px;
+       }
+
+       .cardbox{
+        width: 181px;
+        height: 202px;
+        left: 747px;
+        top: 1943px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       }
+       .box{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+       }
+       .boxcontacts{
+        background-image: url(../Assets/backgroundintro.svg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+       }
+        
+       .caixacontatos{
+         
+        width: 1088px;
+        height: 530px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+       }
+
+.imgheart{
+     animation: imgheartloop 5s ease-in-out infinite;
+
+}
+
+@keyframes imgheartloop{
+    0%{
+       transform: translateY(-0);
+    }
+    
+    
+    50% {
+
+        transform: translateY(-30px);
+       
+      }
+
+      100%{
+        transform: translateY(0);
+      }
+    }
+
+
+
+
+
+
+        @media (max-width: 1440px){
+            .medal{
+                margin-top: -2% !important;
+            }
+        }
+        
+        @media (max-width: 1280px){
+            .medal{
+                margin-top: -4% !important;
+            }
+        }
+
+        @media (max-width: 1080px){
+           .boxstarts{
+               margin-top: -6% !important;
+           }
+            .medal{
+                margin-top: -4% !important;
+            }
+            .imgheader{
+
+                width: 95%;
+                margin-left: 8%;
+            }
+            .boxheader{
+                padding-top: 10%;
+
+            }
+            .boxtext> h1{
+                margin-top: 20%;
+            }
+            .btnheader{
+                width: 80%;
+            }
+            .boxdiferentials{
+                margin-left: -3% !important;
+                width: 110%;
+               
+            }
+            .boxtextrel > h1{
+                 width: 140% ;
+              
+            }
+            .imgheart{
+                margin-left: 10%;
+            }
+        }
+
+
+        @media (max-width: 850px) { 
+            .boxmenuMobile{
+                background-color: black;
+                width: 100%;
+                height: 50px;
+                position:fixed ;
+               
+            }
+            .caixacontatos{
+                margin-left: -12%;
+                width: 125%;
+                height: 730px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+               }
+            .backgroundmobile{
+            
+                    background-image: url(../Assets/backgroundmobile.png);
+                    background-size: cover;
+                    width: 100%;
+                    height: 900px;
+                   
+
+            }
+            .form{
+                margin-top: 10%;
+            }
+             .input1, .input2{
+                width: 120%;
+            }
+            .btncontactenviar{
+                margin-left: 0 !important;
+            }
+            .boxcontactstitle{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .boxcontactsmobile{
+                display: flex ;
+                flex-direction: column ;
+               
+            }
+            .logoFooter{
+                width: 50%;
+                margin-left: 25%;
+            }
+            .boxtextFooter{
+                display: flex;
+                flex-direction: column;
+            }
+            .boxiconFooter{
+               margin-top: 10% !important;
+                margin-right: 0 !important;
+                margin-left: 15% ;
+            }
+            .boxiconFooter > div{
+                margin-top: 45%;
+              
+                margin-right: 40% !important;
+            }
+            .btnoption{
+                margin-top: 8%;
+                width: 100%;
+            }
+            .boxInvite{
+                margin-top: 25%  !important;
+                display: flex;
+                flex-direction: column;
+            }
+            .boxInvite >h1{
+                font-size: 30px !important;
+            text-align: center !important;
+            }
+            .boxstarts{
+                margin-top: -5% !important;
+                margin-left: 15% !important;
+            }
+            .container-menu{
+                display: none;
+            }
+            
+            .boxheader{
+                display: flex;
+                flex-direction: column-reverse;
+                width: 90%;
+                margin-left: 0;
+   
+               }
+
+               .imgheadermobile{
+                width: 115%;
+               
+             }
+             .containerdiferentials{
+                 margin-top: 45% !important;
+             }
+
+             .boxdiferentials{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .boxdescription{
+                margin-left: 0 !important;
+                margin-bottom: 25%;
+            }
+            .boxdescription>h1{
+                text-align: center;
+                width: 100%;
+                font-size: 30px;
+
+            }
+            .icondescription{
+                margin-left: 30%;
+            }
+            .icondescriptionMedal{
+                margin-left: 18%;
+            }
+            .boxrel{
+                display: flex;
+                flex-direction: column;
+            }
+            .boxtextrel > h1{
+                width: 100%;
+            }
+            .imgheart{
+                margin-top: 30% !important;
+                margin-left: 0 !important;
+                width: 100%;
+            }
+            .boxservice{
+                display: flex;
+                flex-direction: column;
+            }
+            .cardbox{
+                margin-top: 25%;
+            }
+            .imgTeam{
+                width: 120%;
+            }
+           
+        }
+
+        @media (max-width: 768px) { 
+
+         }
+         @media (max-width: 485px) { 
+    
+             .logomenumobile{
+                 margin-top: 5%;
+                 width: 30%;
+             }
+            .boxmenuMobile{
+                background-color: white;
+                box-shadow: 10px rgba(0, 0, 0, 0.2);
+                width: 100%;
+                height: 60px;
+                position:fixed ;
+                top: 93%;
+                z-index: 3;
+               
+            }
+            .iconmenumobile{
+                width: 70%;
+            }
+            .boxstarts{
+                margin-top: -5% !important;
+                margin-left: 18% !important;
+            }
+            .swipemobile{
+   
+                width: 125%;
+                margin-left: -18% !important;
+            }
+         }
+         @media (max-width: 414px) { 
+
+             .imglogoon{
+                 width: 90%;
+             }
+             .cardbox{
+                margin-top: 35%;
+            }
+            .containerboxcard{
+                display: flex;
+                flex-direction: column;
+            }
+             @keyframes imglooutnsuave{
+    
+                from{
+                    opacity: 1;
+                    width: 50%;
+                }
+                
+                to {
+                    width: 50%;
+                    opacity: 0.5;
+                    transform: translate(-90px);
+                  }
+                }
+
+             .imglogoout{
+                width: 50%;
+            }
+            
+
+            .boxdescription>h1{
+                width: 100%;
+                font-size: 22px;
+
+            }
+             .btnheader{
+                 width: 110%;
+               
+               
+             }
+             .boxtext{
+                 margin-left: 0 !important;
+                
+             }
+             .boxtext > h1{
+                 text-align: center;
+                 width: 120%;
+
+             }
+            
+             .boxrel{
+                 display: flex;
+                 flex-direction: column ;
+             }
+             .imgheart{
+                 margin-top: 10% ;
+             }
+             .boxtextrel > h1{
+                 width: 100%;
+             }
+           
+        }
+
+        @media (max-width: 375px) { 
+            .imgTeam{
+                width: 110%;
+            }
+            .boxtext > h1{
+                font-size: 33px;
+            }
+        }
+    
